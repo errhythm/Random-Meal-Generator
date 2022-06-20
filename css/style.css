@@ -1,0 +1,65 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0px;
+    padding-bottom:10px;
+
+}
+.text-row h1 {
+    font-size: 2.5em;
+    color: #000000;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+.text-row h3 {
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+#recipe{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:1fr 4fr;
+    grid-gap:1%;
+    padding: 5px;
+    margin: 0px;
+    padding-bottom:10px;
+}
+#recipe-image{
+    padding: 5px;
+    align-items: center;
+}
+#recipe-image img{
+    height: 40vh;
+    width: auto;
+}
+#recipe-title{
+    padding: 5px;
+    margin: 0px;
+    padding-bottom:10px;
+}
+#recipe-title h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    color: #000000;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
